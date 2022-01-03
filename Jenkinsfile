@@ -17,7 +17,7 @@ pipeline {
             [
                 artifactId: 'torryharris',
                 classifier: '',
-                file: '/var/lib/jenkins/jobs/register/config.xml', 
+                file: '/var/lib/jenkins/jobs/registerdemo/config.xml', 
                 type: 'war'
             ]
         ], 
