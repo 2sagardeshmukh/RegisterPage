@@ -15,15 +15,15 @@ pipeline {
         
         nexusArtifactUploader artifacts: [
             [
-                artifactId: 'torryharris',
+                artifactId: 'th',
                 classifier: '',
                 file: '/var/lib/jenkins/jobs/registerdemo/config.xml', 
                 type: 'war'
             ]
         ], 
             credentialsId: '73497722-8b4b-46b2-99d2-cf525eb9978e',
-            groupId: 'torryharris', 
-            nexusUrl: '18.118.247.213:8081', 
+            groupId: 'th', 
+            nexusUrl: '3.133.254.46:8081', 
             nexusVersion: 'nexus3',
             protocol: 'http', 
             repository: 'maven-snapshots', 
